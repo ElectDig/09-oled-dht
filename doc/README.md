@@ -37,7 +37,7 @@
    Connect OLED SCL to GPIO22  
    Connect OLED SDA to GPIO21  
 
-   **Nota importante**: si bien todos los OLED 0.96" tienen 4 conexiones, la ubicación de los respectivos contactos no están en el mismo orden en todas las fabricaciones
+   **Improtant note**: all OLED 0.96" have 4 connections but they have not the same position; please, look carefully
 
 ###     Coding
 
@@ -71,17 +71,17 @@
 
 ###  Links
 
-  Una explicación resumida pero buena, introductoria al SSD1306 display OLED 0.96"
+  A good introductory explanation to SSD1306 used in conjuction with ESP32
 
   [ESP32 OLED Display with Arduino IDE](https://randomnerdtutorials.com/esp32-ssd1306-oled-display-arduino-ide/)
 
-  Si bien está escrito para el ESP8266, es una muy buena explicación de los OLED pequeños
+  It is written for ESP8266 but it is a very good explanation of OLED little displays and the library call usage
 
   [SSD1306 pantalla OLED con Arduino y ESP8266 I2C](https://programarfacil.com/blog/arduino-blog/ssd1306-pantalla-oled-con-arduino/)
 
 ### Videos
 
-  Si bien un poco extenso (mas de 40 minutos) la explicación es muy detallada
+  A very detailed video, but it is a long one (aprox. 40 minutes)
 
   [OLED Displays with Arduino - I2C & SPI OLEDs](https://www.youtube.com/watch?v=7x1P80X1V3E)
 
