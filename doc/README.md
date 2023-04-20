@@ -7,7 +7,7 @@
 
    Electronica Digital - Austral 2023 - EAM
     
-##  Show DHT measurements in OLED display SSD1306 
+##  Show DHT measurements in OLED display SSD1306 in text mode
 
    Using ESP32 development board
 

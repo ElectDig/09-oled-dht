@@ -1,7 +1,7 @@
 /*
  *  Project 09-oled-dht
  *      Austral 2023 - Electronica Digital - EAM
- *      Show DHT measurements in OLED display SSD1306
+ *      Show DHT measurements in OLED display SSD1306 in text mode
  *      File: main.cpp
  */
 

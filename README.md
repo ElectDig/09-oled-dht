@@ -6,7 +6,7 @@
 
 ### Description
 
-    Used to print i2c devices addresses found
+    Show DHT measurements in OLED display SSD1306 in text mode
 
     For running in ESP32
 
