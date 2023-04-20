@@ -50,6 +50,7 @@
 
    Basically, in _setup_ a call to _oled_init_ must be made; then, for showing information in the display, following sequence must be used:  
 
+```
    Call to _oled_open_, passing as argument the font size to use  
        Argument _size_text_ selecting one of the _enum size_text_  
    For each line in display, call to _oled_line_:  
@@ -58,6 +59,7 @@
            LITTLE_TEXT = 8, MEDIUM_TEXT = 4, LARGE_TEXT = 2  
        Argument _text_: name of array of chars where is text to be displayed  
    Call to _oled_close_ with no arguments to show in display  
+```
 
 ###  Verification
 
