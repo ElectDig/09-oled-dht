@@ -55,7 +55,7 @@
        Argument "size_text" selecting one of the "enum size_text"  
    For each line in display, call to "oled_line":  
        Argument "align": taken from one of the "enum align"  
-       Argument _line_: from 0 to "max-1" where "max" depends on "enum size_text":  
+       Argument "line": from 0 to max-1 where "max" depends on "enum size_text":  
            LITTLE_TEXT = 8, MEDIUM_TEXT = 4, LARGE_TEXT = 2  
        Argument "text": name of array of chars where is text to be displayed  
    Call to "oled_close" with no arguments to show in display  
