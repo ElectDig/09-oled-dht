@@ -13,10 +13,10 @@
 
 ### Hardware
 
-   1 Temperature and humidity sensor: DHT11 or DHT22
-   1 10K resistor
-   1 OLED display 0.96"
-   Jumper wires
+   1 Temperature and humidity sensor: DHT11 or DHT22  
+   1 10K resistor  
+   1 OLED display 0.96"  
+   Jumper wires  
 
 ###  Connections
 
