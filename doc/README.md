@@ -44,21 +44,21 @@
    Uses libraries for DHT sensor (same as project 07-dht)  
    Uses libraries for OLED display (same as in project 09-oled-test)  
 
-   As you see in testing of OLED display in project 09-oled-test, using the library for text only is cumbersome; in order to easing this usage, a _wrapper_ is constucted around the base library.  
+   As you see in testing of OLED display in project 09-oled-test, using the library for text only is cumbersome; in order to easing this usage, a _wrapper_ is constructed around the base library.  
    For using this _wrapper_, you must add to the project the files _oled_ruts.cpp_ and _oled_ruts.h_; in the file using the _wrapper_ calls, the header file _oled_ruts.h_ must be included.  
    Use this project as an example of usage of _wrapper_ calls.  
 
    Basically, in _setup_ a call to _oled_init_ must be made; then, for showing information in the display, following sequence must be used:  
 
 ```
-   Call to _oled_open_, passing as argument the font size to use  
-       Argument _size_text_ selecting one of the _enum size_text_  
-   For each line in display, call to _oled_line_:  
-       Argument _align_: taken from one of the _enum align_  
-       Argument _line_: from 0 to _max-1_ where _max_ depends on _enum size_text_:  
+   Call to "oled_open", passing as argument the font size to use  
+       Argument "size_text" selecting one of the "enum size_text"  
+   For each line in display, call to "oled_line":  
+       Argument "align": taken from one of the "enum align"  
+       Argument _line_: from 0 to "max-1" where "max" depends on "enum size_text":  
            LITTLE_TEXT = 8, MEDIUM_TEXT = 4, LARGE_TEXT = 2  
-       Argument _text_: name of array of chars where is text to be displayed  
-   Call to _oled_close_ with no arguments to show in display  
+       Argument "text": name of array of chars where is text to be displayed  
+   Call to "oled_close" with no arguments to show in display  
 ```
 
 ###  Verification
